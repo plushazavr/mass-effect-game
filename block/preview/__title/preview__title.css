@@ -1,0 +1,15 @@
+.preview__title {
+  margin: 0px auto;
+  padding: 0;
+  padding-top: 105px;
+  max-width: 1203px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 74px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

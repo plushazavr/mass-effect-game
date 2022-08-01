@@ -1,0 +1,20 @@
+.card-game__text {
+  margin: 0;
+  padding: 0;
+  width: 367px;
+  max-height: 235px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0;
+}
+
+.card-game__text:hover {
+  opacity: 1;
+}

@@ -1,0 +1,15 @@
+.preview__subtitle {
+  margin: 0px auto;
+  padding: 0;
+  padding-top: 41px;
+  padding-bottom: 104px;
+  max-width: 1203px;
+  text-align: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,5 @@
+.card-game__hover {
+  background-image: url(../../../img/Polygon-hover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

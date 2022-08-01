@@ -1,0 +1,16 @@
+@import url(./vendor/normalize.css);
+@import url(./block/page/page.css);
+@import url(./block/header/header.css);
+@import url(./block/header/__title/header__title.css);
+@import url(./block/preview/preview.css);
+@import url(./block/preview/__title/preview__title.css);
+@import url(./block/preview/__subtitle/preview__subtitle.css);
+@import url(./block/about/about.css);
+@import url(./block/about/__title/about__title.css);
+@import url(./block/card-section/card-section.css);
+@import url(./block/card-game/card-game.css);
+@import url(./block/card-game/_type/card-game_type_me1.css);
+@import url(./block/card-game/_type/card-game_type_me2.css);
+@import url(./block/card-game/_type/card-game_type_me3.css);
+@import url(./block/card-game/__hover/card-game__hover.css);
+@import url(./block/card-game/__text/card-game__text.css);

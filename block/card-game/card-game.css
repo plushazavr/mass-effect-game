@@ -1,0 +1,8 @@
+.card-game {
+  margin: 0px auto;
+  width: 1226px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

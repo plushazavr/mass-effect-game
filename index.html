@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Mass Effect</title>
+</head>
+<body class="page">
+  <header class="header">
+    <h1 class="header__title">Mass Effect</h1>
+  </header>
+  <section class="preview">
+    <h2 class="preview__title">ФАНТАСТИЧЕСКАЯ САГА ЖДЕТ ВАС</h2>
+    <p class="preview__subtitle">Исследуйте уголки невероятно богатой вселенной, где все ваши действия и решения будут иметь последствия.</p>
+  </section>
+  <section class="about">
+    <h3 class="about__title">Трилогия Mass Effect - это революционная фантастическая эпопея с богатой иммерсивной вселенной.</h3>
+    <div class="card-section" id="card-section">
+      <div class="card-game card-game_type_me1" id="card-game">
+        
+          <p class="card-game__text" id="card-text">Вы — Шепард — капитан «Нормандии».<br>Вам предстоит провести элитный разведотряд по галактике, чтобы остановить возвращение врага, не знающего пощады. Ваша единственная цель — сохранить цивилизованную жизнь галактики в безопасности.</p>
+        
+      </div>
+      <div class="card-game card-game_type_me2" id="card-game">
+          
+          <p class="card-game__text" id="card-text">Спустя два года, как капитан Шепард побеждает Жнецов, появляется новый враг. На границах исследованного космоса что-то похищает человеческие колонии. Шепард работает с «Цербером»  чтобы остановить величайшую угрозу.</p>
+        
+      </div>
+      <div class="card-game card-game_type_me3" onmouseover="chanceHoverOn(this)" onmouseout="chanceHoverOff(this)" id="card-game">
+        
+          <p class="card-game__text"  id="card-text"> Земля в огне. Удар из-за пределов известного космоса нанесли страшные машины, начавшие уничтожение человеческой расы. Шепард — единственная надежда на спасение человечества. Он/она должен/-на сплотить цивилизации Галактики и начать последнюю миссию — возвращение на Землю</p>
+        
+      </div>
+    </div>
+    
+  </section>
+
+  <script type="text/javascript">
+    let cardGame = document.querySelector('.card-game');
+    function chanceHoverOn(cardGame) {
+      cardGame.classList.add('card-game__hover');
+    }
+    
+    function chanceHoverOff(cardGame) {
+      cardGame.classList.remove('card-game__hover');
+    }
+    
+    
+  </script>
+
+</body>
+</html>
